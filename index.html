@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dwarf Mine Town</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/Display.js"></script>
+        <script type="text/javascript" src="js/Wallet.js"></script>
+        <script type="text/javascript" src="js/Player.js"></script>
+        <script type="text/javascript" src="js/Game.js"></script>
+    </head>
+
+    <body class="stdbody">
+        <div class="col-12 border-bottom border-dark d-block walletarea" id="walletarea"></div>
+
+        <div class="col-12 border-top border-dark d-block actionarea" id="actionarea"></div>
+    </body>
+
+    <script type="text/javascript">
+        let display = new Display();
+        display.setupDisplay();
+
+        //Create a new game object and start the game
+        let game = new Game(display);
+        game.start();
+    </script>
+</html>

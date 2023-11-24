@@ -1,0 +1,33 @@
+html
+{
+    display: block;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 100%;
+}
+
+body
+{
+    border: 1px solid #0f5132;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0;
+    position: relative;
+    width: 800px;
+}
+
+div.walletarea
+{
+    background: #CCCCCC;
+    font-size: 1.2em;
+    height: 5%;
+}
+
+div.actionarea
+{
+    background: #CCCCCC;
+    bottom: 0;
+    font-size: 1.2em;
+    position: absolute;
+    height: 5%;
+}
